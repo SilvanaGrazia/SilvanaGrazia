@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Silvana Grazia">
+    <title>[Silvana Grazia]</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <h1>Silvana Grazia</h1>
+        <nav>
+            <ul>
+                <li><a href="#ueber-mich">Über mich</a></li>
+                <li><a href="#arbeiten">Meine Arbeiten</a></li>
+                <li><a href="#flash">Flash Designs</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Über mich Abschnitt -->
+    <section id="ueber-mich">
+        <h2>Über mich</h2>
+        <p>Ich bin [Dein Name], ein professioneller Tätowierer mit [X] Jahren Erfahrung. Ich spezialisiere mich auf individuelle Tattoo-Designs, die zu dir passen.</p>
+        <img src="dein-bild.jpg" alt="Tattoo-Künstler Bild">
+    </section>
+
+    <!-- Arbeiten (Portfolio) -->
+    <section id="arbeiten">
+        <h2>Meine Arbeiten</h2>
+        <div class="gallery">
+            <img src="tattoo1.jpg" alt="Tattoo 1">
+            <img src="tattoo2.jpg" alt="Tattoo 2">
+            <img src="tattoo3.jpg" alt="Tattoo 3">
+            <!-- Weitere Bilder -->
+        </div>
+    </section>
+
+    <!-- Flash Designs -->
+    <section id="flash">
+        <h2>Flash Designs</h2>
+        <div class="flash-gallery">
+            <img src="flash1.jpg" alt="Flash Design 1">
+            <img src="flash2.jpg" alt="Flash Design 2">
+            <!-- Weitere Flash-Bilder -->
+        </div>
+    </section>
+
+    <!-- Kontakt Abschnitt -->
+    <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>Schreib mir, um einen Termin zu vereinbaren oder Fragen zu stellen:</p>
+        <form action="mailto:deine-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Absenden</button>
+        </form>
+
+        <p><strong>Adresse:</strong> [Deine Adresse]</p>
+        <p><strong>Telefon:</strong> [Deine Telefonnummer]</p>
+
+        <!-- Google Maps Integration (optional) -->
+        <div id="map">
+            <!-- Google Maps Code hier einfügen -->
+        </div>
+    </section>
+
+    <!-- Social Media Abschnitt -->
+    <section id="social-media">
+        <h2>Folge mir auf Social Media</h2>
+        <ul>
+            <li><a href="https://instagram.com/deinprofil" target="_blank">Instagram</a></li>
+            <li><a href="https://facebook.com/deinprofil" target="_blank">Facebook</a></li>
+            <li><a href="https://tiktok.com/@deinprofil" target="_blank">TikTok</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Dein Name]. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
